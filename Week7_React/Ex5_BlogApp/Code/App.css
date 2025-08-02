@@ -1,0 +1,21 @@
+
+.app {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.st2, .v1, .mystyle1 {
+  width: 30%;
+}
+
+.separator {
+  width: 2px;
+  background-color: green;
+  height: auto;
+}
