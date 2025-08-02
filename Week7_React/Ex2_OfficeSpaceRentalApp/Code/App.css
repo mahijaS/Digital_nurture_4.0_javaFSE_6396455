@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.office-container {
+  display: flex;
+  flex-wrap: wrap; /* Optional: Allows wrapping on smaller screens */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.office-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 320px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.office-card:hover {
+  transform: scale(1.03);
+}
+
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
